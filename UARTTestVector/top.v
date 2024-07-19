@@ -51,6 +51,7 @@ module top(
     wire flag2; // to flag each bit coming in 
     wire toggle;
     wire Q;
+    wire dff1out;
     
     // Transmitter wires/registers
     wire trans_out;
@@ -70,20 +71,11 @@ module top(
     bram ram(clk,address,data_in,data_out, Q);    // perhaps change write_en for byteclk?
     receivermem re(clk, RxD, reset, RxData, flag); // flag tells us how many bytes are sent through
     // transmitter tn(clk, data_out, reset, stroke, TxD); 
-    my_dff dff(clk, flag, toggle);
+    my_dff dff1(clk, flag, dff1out);
+    my_dff dff2(~clk, dff1out, toggle);
+    
     my_dff tdff(~(toggle && clk), ~Q, Q);   // q becomes write enable
-    
-    // create a clock everytime bytecount increments
-    // if bytecount becomes greater than it's previous value -> pulse
-    always @(clk) begin
-        if ((bytecount > bytebuff)) begin
-            byteclk <= 1;   // generates a pulse every other byte(not a single pulse for every byte)
-            bytebuff <= bytecount;  // update the next value of bytebuff
-        end else begin
-            byteclk <= 0;
-        end
-    end
-    
+
     
     always @ (negedge flag) begin
         address <= address + 4'b0001;
