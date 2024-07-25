@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../nnselector/nnselector.srcs/sources_1/new/Selector.v" \
+"../../../../UARTselector.srcs/sources_1/new/debouncefix.v" \
+"../../../../UARTselector.srcs/sources_1/new/transmitter.v" \
+"../../../../UARTselector.srcs/sources_1/new/top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"

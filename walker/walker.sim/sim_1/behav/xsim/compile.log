@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/user/Documents/nguyen vivado/walker/walker.srcs/sources_1/new/walker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module walker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/user/Documents/nguyen vivado/walker/walker.srcs/sim_1/new/walker_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_button

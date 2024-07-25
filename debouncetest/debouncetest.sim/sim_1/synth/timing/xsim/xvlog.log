@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/user/Documents/nguyen vivado/debouncetest/debouncetest.sim/sim_1/synth/timing/xsim/tb_button_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_div
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-311] analyzing module my_dff
+INFO: [VRFC 10-311] analyzing module my_dff_0
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/user/Documents/nguyen vivado/debouncetest/debouncetest.srcs/sim_1/new/dbtb.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file 'debounce.v' [C:/Users/user/Documents/nguyen vivado/debouncetest/debouncetest.srcs/sim_1/new/dbtb.v:2]
+INFO: [VRFC 10-311] analyzing module tb_button
+ERROR: [VRFC 10-8530] module 'tb_button' is ignored due to previous errors [C:/Users/user/Documents/nguyen vivado/debouncetest/debouncetest.srcs/sim_1/new/dbtb.v:4]

@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_button_time_synth.v" \
+"../../../../../debouncetest.srcs/sim_1/new/dbtb.v" \
+
+# Do not sort compile order
+nosort

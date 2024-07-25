@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../UARTtestvector.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../../debouncer/debouncer.srcs/sources_1/new/DFF.v" \
+"../../../../../UARTmemory/UARTmemory.srcs/sources_1/new/memory.v" \
+"../../../../UARTtestvector.srcs/sources_1/new/write_en.v" \
+"../../../../UARTtestvector.srcs/sim_1/new/top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

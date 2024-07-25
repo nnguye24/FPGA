@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/user/Documents/nguyen vivado/test/test.sim/sim_1/impl/func/xsim/tb_button_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_div
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-311] analyzing module my_dff
+INFO: [VRFC 10-311] analyzing module my_dff_0
+INFO: [VRFC 10-311] analyzing module my_dff_1
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/user/Documents/nguyen vivado/test/test.srcs/sim_1/new/db_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_button

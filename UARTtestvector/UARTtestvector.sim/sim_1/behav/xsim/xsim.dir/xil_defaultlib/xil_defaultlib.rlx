@@ -1,0 +1,17 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/user/Documents/nguyen vivado/UARTmemory/UARTmemory.srcs/sim_1/new/mem_tb.v,1721160326,verilog,,,,bram_tb,,,,,,,,
+C:/Users/user/Documents/nguyen vivado/UARTmemory/UARTmemory.srcs/sources_1/new/memory.v,1721836085,verilog,,C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.srcs/sources_1/new/write_en.v,,bram,,,,,,,,
+C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1720534608,verilog,,C:/Users/user/Documents/nguyen vivado/debouncer/debouncer.srcs/sources_1/new/DFF.v,,blk_mem_gen_0,,,,,,,,
+C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.srcs/sim_1/new/byteclk_sim.v,1721152144,verilog,,,,byteclk_tb,,,,,,,,
+C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.srcs/sim_1/new/dff_tb.v,1721677339,verilog,,,,dff_tb,,,,,,,,
+C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.srcs/sim_1/new/receiver_tb.v,1721404002,verilog,,,,tb_receivermem,,,,,,,,
+C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.srcs/sim_1/new/top_tb.v,1721913126,verilog,,,,top_tb,,,,,,,,
+C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.srcs/sim_1/new/write_tb.v,1721851777,verilog,,,,write_tb,,,,,,,,
+C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.srcs/sources_1/new/byteclk.v,1721249659,verilog,,C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.srcs/sim_1/new/byteclk_sim.v,,byteclk,,,,,,,,
+C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.srcs/sources_1/new/receivermem.v,1721403490,verilog,,C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.srcs/sim_1/new/receiver_tb.v,,receivermem,,,,,,,,
+C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.srcs/sources_1/new/write_en.v,1721853858,verilog,,C:/Users/user/Documents/nguyen vivado/UARTtestvector/UARTtestvector.srcs/sim_1/new/top_tb.v,,write_en,,,,,,,,
+C:/Users/user/Documents/nguyen vivado/debouncer/debouncer.srcs/sources_1/new/DFF.v,1721676856,verilog,,C:/Users/user/Documents/nguyen vivado/UARTmemory/UARTmemory.srcs/sources_1/new/memory.v,,my_dff,,,,,,,,

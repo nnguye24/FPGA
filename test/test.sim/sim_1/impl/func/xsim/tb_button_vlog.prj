@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_button_func_impl.v" \
+"../../../../../test.srcs/sim_1/new/db_tb.v" \
+
+# Do not sort compile order
+nosort
