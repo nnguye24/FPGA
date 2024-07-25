@@ -1,6 +1,8 @@
 # FPGA Projects for NDNano
 ## These are projects under Prof. Snider & Prof. Orlov.
 Many of these projects are purely for learning
+### UART Selector 
+Uses UART transmission to send a selector output through a serial line. 
 ### LED Walker
 Walks an array of 8 LEDs left and right. 
 ### UART Transceiver
